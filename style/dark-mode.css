@@ -6,13 +6,13 @@
     background-color: #363636;
 }
 
-.content .cardview {
+.content {
     background-color: #303030;
 }
 
 .card {
     background-color: #444444;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .menu .search {

@@ -72,6 +72,7 @@ body {
 .cardview {
     flex: 1;
     display: flex;
+    height: fit-content;
     flex-direction: row;
     padding: 10px;
     overflow-x: hidden;
@@ -97,9 +98,13 @@ body {
 }
 
 .card p {
-    flex: 1;
-    /* overflow: hidden; */
-    text-overflow: clip;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;  /* Adjust the number as needed */
+    overflow: hidden;
+    line-height: 1.5em;     /* Example line height */
+    flex: 1;      /* Adjust based on line-height and number of lines */
+    font-family: 'Roboto', sans-serif;
 }
 
 .spacer {

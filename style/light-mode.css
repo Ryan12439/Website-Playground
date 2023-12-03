@@ -1,0 +1,31 @@
+.menu {
+    background-color: #ffffff;
+}
+
+.content .sidebar {
+    background-color: #ffffff;
+}
+
+.content .cardview {
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #cecece;
+    color: #313131;
+}
+
+.menu .search {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.menu .profile {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.page-logo {
+    color: #000000;
+}
