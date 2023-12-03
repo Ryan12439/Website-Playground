@@ -7,13 +7,23 @@
 }
 
 .content .cardview {
-    background-color: #000000;
+    background-color: #303030;
 }
 
-.content .cardview .column {
+.card {
     background-color: #444444;
+    color: #ffffff
 }
 
 .menu .search {
     background-color: #ffffff;
+}
+
+.menu .profile {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.page-logo {
+    color: #ffffff;
 }
