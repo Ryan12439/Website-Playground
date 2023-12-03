@@ -12,12 +12,28 @@ body {
 .menu {
     height: 50px;
     justify-content: right;
+    vertical-align: middle;
     display: flex;
 }
 
-.menu .icon {
-    height: 30px;
-    width: 30px;
+.search {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.search .input {
+    border: 0px;
+    outline: none;
+}
+
+.search .icon {
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
 }
 
 .content {
