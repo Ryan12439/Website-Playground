@@ -1,0 +1,19 @@
+.menu {
+    background-color: #2b2b2b;
+}
+
+.content .sidebar {
+    background-color: #363636;
+}
+
+.content .cardview {
+    background-color: #000000;
+}
+
+.content .cardview .column {
+    background-color: #444444;
+}
+
+.menu .icon {
+    color: #ffffff
+}
